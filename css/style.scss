@@ -126,9 +126,7 @@ html{
         margin-left: .3rem;
     
     }
-    #info-btn{
-        border-radius: 50%;
-    }
+
     #menu-btn{
         display: none;
     }
@@ -502,10 +500,12 @@ footer{
     section{
         padding: 3rem 2rem;
     }
+
     .header{
         #menu-btn{
             display: inline-block;
         }
+
      
         .navbar{
             position: absolute;
