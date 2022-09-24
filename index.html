@@ -34,9 +34,46 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.0/lazysizes.min.js" ></script>
+    <style>
+        .whatsapp_float{
+           position: fixed;
+           width: 60px;
+           height: 60px;
+           bottom: 40px;
+           left: 40px;
+           background-color: #25d366;
+           color: #fff;
+           border-radius: 50px;
+           text-align: center;
+           font-size: 30px;
+           box-shadow: 2px 2px 3px #999;
+           z-index: 100;
+       }
+       .whatsapp-icon{
+             margin-top: 16px;
+       }
+       @media screen and (max-width:767px) {
+        .whatsapp-icon{
+             margin-top: 10px;
+       }
+       .whatsapp_float{
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+        left: 10px;
+        font-size: 22px;
+       }
+       }
+    </style>
 </head>
 
 <body>
+    
+     <!--Whatsapp chat-->
+        <a href="https://wa.me/9585591500" class="whatsapp_float" target="_blank" title="click to open whatsapp chat">
+        <i class="fab fa-whatsapp  whatsapp-icon"></i> 
+       </a>
     <!--Header section-->
        <div class="header">
           <a href="index.html" class="logo"><img src="img/vsli-logo.png" width="54px" height="40px"></a>
@@ -66,13 +103,13 @@
 
          </div>
         <div class="info">
-            <i class="fas fa-phone"></i>
+            <a href="tel:+91 9585591500" style="text-decoration: none;"><i class="fas fa-phone"></i></a><span style="font-size:18px;padding: 8px; color: #f3880a; font-weight:bold;">Make A Call </span>
             <h3>phone number</h3>
-            <p>+91 9585591500</p>
+            <p><a href="tel:+91 9585591500" style="text-decoration: none;color:rgb(70, 69, 69)">+91 9585591500</a></p>
         </div>
         <br>
         <div class="info">
-            <i class="fas fa-envelope"></i>
+            <a href = "mailto: info@vslindia.com"><i class="fas fa-envelope"></i></a>
             <h3>emil address</h3>
            
             <p><a href = "mailto: info@vslindia.com" style="color: rgb(70, 69, 69);">info@vslindia.com</a></p>
@@ -212,7 +249,7 @@
                 
             </div>
             <div class="box">
-                <img src="img/AAIW.jpeg" alt="Angle Adjusted" >
+                <img src="img/Angal-Ajusted.jpeg" alt="Angle Adjusted" >
                 <a href="./Producat.html#AAIW"><h3>Angle Adjusted | Inclination Walkway</h3></a>
                
             </div>
@@ -315,13 +352,12 @@
             <li><a href="https://www.linkedin.com/company/venkateswara-suppliers-pvt-ltd/"  target="_blank" class="fab fa-linkedin"></a></li>
         </ul>
         <ul class="menu">
-           <li><a href="#home">Home</a></li>  
-             <li><a href="#about">About</a></li>
-             <li><a href="#services">Services</a></li>
-             <li><a href="#">Products</a></li>
-             <li><a href="#">Gallery</a></li>
-             <li><a href="#">Brochure</a></li>
-             <li><a href="#contact">Contact</a></li>
+            <li><a href="index.html#home">Home</a></li>  
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#services">Products</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="Brochure.html">Brochure</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
         </ul>
         <p>&copy; Copyright 2022 <a href="#" style="color:white ;">Venkateswara Suppliers Private Limited</a></p>
         <p>Website Developed by <span style="font-style: italic;"><a href="https://www.instagram.com/indorap_ts/?igshid=YmMyMTA2M2Y%3D" target="_blank" style="color:black;font-size:1.5rem;font-weight: bold;">Indorap</a></span></p>
@@ -331,5 +367,6 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
 </body>
-
+  
 </html>
+<script src="https://code.tidio.co/3xobbnllvrkhhldkddogi41gmxreftu9.js" async></script>

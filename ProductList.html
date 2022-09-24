@@ -47,10 +47,43 @@
     .about .content h2 {
         font-size: large;
     }
+    .whatsapp_float{
+           position: fixed;
+           width: 60px;
+           height: 60px;
+           bottom: 40px;
+           left: 40px;
+           background-color: #25d366;
+           color: #fff;
+           border-radius: 50px;
+           text-align: center;
+           font-size: 30px;
+           box-shadow: 2px 2px 3px #999;
+           z-index: 100;
+       }
+       .whatsapp-icon{
+             margin-top: 16px;
+       }
+       @media screen and (max-width:767px) {
+        .whatsapp-icon{
+             margin-top: 10px;
+       }
+       .whatsapp_float{
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+        left: 10px;
+        font-size: 22px;
+       }
+       }
     </style>
 </head>
 
 <body>
+    <!--Whatsapp chat-->
+    <a href="https://wa.me/9585591500" class="whatsapp_float" target="_blank" title="click to open whatsapp chat">
+        <i class="fab fa-whatsapp  whatsapp-icon"></i> 
+       </a>
     <!--Header section-->
        <div class="header">
           <a href="index.html" class="logo"><img src="img/vsli-logo.png" width="54px" height="40px"></a>
@@ -80,14 +113,14 @@
          <div id="close-contact-info" class="fas fa-times">
 
          </div>
-        <div class="info">
-            <i class="fas fa-phone"></i>
+         <div class="info">
+            <a href="tel:+91 9585591500" style="text-decoration: none;"><i class="fas fa-phone"></i></a><span style="font-size:18px;padding: 8px; color: #f3880a; font-weight:bold;">Make A Call </span>
             <h3>phone number</h3>
-            <p>+91 9585591500</p>
+            <p><a href="tel:+91 9585591500" style="text-decoration: none;color:rgb(70, 69, 69)">+91 9585591500</a></p>
         </div>
         <br>
         <div class="info">
-            <i class="fas fa-envelope"></i>
+            <a href = "mailto: info@vslindia.com"><i class="fas fa-envelope"></i></a>
             <h3>emil address</h3>
            
             <p><a href = "mailto: info@vslindia.com" style="color: rgb(70, 69, 69);">info@vslindia.com</a></p>
@@ -124,7 +157,7 @@
         </div>
     </section>
     <!--Home section end-->
-    <!--About section -->
+    <!--Product section -->
      <section class="about" id="about">
         <h1> Venkateswara Suppliers private Limited is one of a leading manufacturers of FRP moulded Walkways and railings in India. We manufacture FRP products for solar Rooftop Installations. Our product range is as follows:</h1>
         <br><br>
@@ -224,7 +257,7 @@
         </div>  
      </section>
      
-    <!--About section end-->
+    <!--Product section end-->
     <footer>
         <ul class="social_icon">
            <li><a href="https://www.facebook.com/Venkateswara-Suppliers-Private-Limited-105857597523624/?" target="_blank" class="fab fa-facebook-f"></a></li>
@@ -250,3 +283,4 @@
 </body>
 
 </html>
+<script src="https://code.tidio.co/3xobbnllvrkhhldkddogi41gmxreftu9.js" async></script>
